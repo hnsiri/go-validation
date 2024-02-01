@@ -1,16 +1,16 @@
 ## Installation
 
-You can install `go-validation` using `go get` command. Open your terminal or command prompt and run the following command:
+You can install `go-validator` using `go get` command. Open your terminal or command prompt and run the following command:
 
 ```bash
-go get -u github.com/hnsiri/go-validation
+go get -u github.com/hnsiri/go-validator
 ```
 
-This command will download and install the `go-validation` package along with its dependencies into your Go workspace.
+This command will download and install the `go-validator` package along with its dependencies into your Go workspace.
 
 ## Usage
 
-Once installed, you can import and use `go-validation` in your Go projects. Here's a basic example of how to use it:
+Once installed, you can import and use `go-validator` in your Go projects. Here's a basic example of how to use it:
 
 ```go
 package main
@@ -18,7 +18,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/hnsiri/go-validation/validator"
+	"github.com/hnsiri/go-validator"
 )
 
 type Currency struct {
@@ -61,9 +61,9 @@ func main() {
 
 ## Contributing
 
-If you encounter any issues or would like to contribute to the development of `go-validation`, you can do so by submitting issues or pull requests on the GitHub repository.
+If you encounter any issues or would like to contribute to the development of `go-validator`, you can do so by submitting issues or pull requests on the GitHub repository.
 
 ## License
 
-`go-validation` is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+Distributed under the [MIT License](https://opensource.org/licenses/MIT).
 ```
